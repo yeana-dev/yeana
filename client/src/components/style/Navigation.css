@@ -1,0 +1,32 @@
+.navbar {
+  font-family: "Noto Sans Mono", monospace;
+  transition: all 250ms ease;
+}
+
+.navbar > .container {
+  width: 80%;
+  padding: 0;
+}
+
+#nav-logo {
+  font-weight: 800;
+  letter-spacing: -2px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+#nav-logo:hover {
+  color: rgba(0, 0, 0, 0.7);
+  transition: all 0.2s ease;
+}
+
+#navbar-link {
+  font-size: 14px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
