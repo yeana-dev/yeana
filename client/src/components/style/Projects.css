@@ -1,0 +1,35 @@
+#projects img {
+  width: 500px;
+}
+
+#projects {
+  width: 70%;
+  margin: 10em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10em;
+}
+
+#projects .project {
+  display: flex;
+  align-items: center;
+  gap: 10em;
+}
+
+#projects .project header {
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 34px;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+
+#projects .project ul {
+  list-style: none;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#projects .project li {
+  margin-bottom: 10px;
+}
