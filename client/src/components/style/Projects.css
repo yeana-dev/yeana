@@ -19,6 +19,10 @@
   display: flex;
   align-items: center;
   gap: 10em;
+  border-radius: 20px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 2px 6px;
+  background-color: #fbfaf8;
+  padding: 2em;
 }
 
 #projects .project img {
@@ -26,8 +30,8 @@
 }
 
 #projects .project header {
-  font-family: "Noto Sans Mono", monospace;
-  font-size: 34px;
+  font-family: "Noto Serif", serif;
+  font-size: 38px;
   letter-spacing: -1px;
   font-weight: 700;
   display: inline-block;
@@ -37,12 +41,14 @@
   margin-left: 1em;
   font-style: italic;
   font-size: 14px;
+  background-color: #d8ff4a7a;
 }
 
 #projects .project ul {
   list-style: none;
   padding: 0;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 14px;
   margin: 20px 0;
 }
 
@@ -51,15 +57,20 @@
 }
 
 #projects .project button {
-  background-color: black;
-  border: none;
-  color: whitesmoke;
-  text-transform: uppercase;
-  padding: 8px 15px;
+  background-color: transparent;
+  border: 1px black solid;
+  color: black;
+  padding: 5px 15px;
   font-size: 12px;
-  font-weight: 900;
-  border-radius: 10px;
+  font-weight: 700;
   margin-right: 20px;
+  font-family: "Noto Sans Mono", monospace;
+  transition: all 200ms ease;
+}
+
+#projects .project button:hover {
+  background-color: #d8ff4a7a;
+  transition: all 200ms ease;
 }
 
 #projects .project li a {
