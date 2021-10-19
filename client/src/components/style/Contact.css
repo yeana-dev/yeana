@@ -1,0 +1,52 @@
+#contact {
+  height: 60vh;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10em;
+}
+
+#contact > * {
+  width: 50%;
+}
+
+#contact-left header {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 1em 0;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#contact form > * {
+  border: none;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 14px;
+  resize: none;
+}
+
+#about-links button {
+  color: white;
+  font-family: "Noto Sans Mono", monospace;
+  transition: all 200ms ease;
+  background-color: black;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 2em;
+}
+
+#about-links button:hover {
+  background-color: #85b0c9;
+  transition: all 200ms ease;
+}
