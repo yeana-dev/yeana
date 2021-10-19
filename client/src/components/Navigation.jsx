@@ -35,6 +35,14 @@ export default function Navigation() {
             <Nav.Link id="navbar-link" href="#contact">
               Contact
             </Nav.Link>
+            <Nav.Link
+              id="navbar-link"
+              href="https://drive.google.com/file/d/13QWoYpUSJ78O2bbw-zrunp_qmQq6-FBq/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
