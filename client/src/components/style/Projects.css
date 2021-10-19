@@ -33,3 +33,15 @@
 #projects .project li {
   margin-bottom: 10px;
 }
+
+#projects .project li button {
+  background-color: black;
+  border: none;
+  color: whitesmoke;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-right: 20px;
+}
