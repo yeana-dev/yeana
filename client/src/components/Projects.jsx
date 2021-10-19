@@ -18,18 +18,20 @@ export default function Projects() {
             </li>
             <li>
               Features: WYSIWYG text editor{" "}
-              <a href="https://ui.toast.com/tui-editor">Toast UI Editor</a>,
-              comments, login/signup using JWT and Bcrypt
+              <a href="https://ui.toast.com/tui-editor" target="_blank">
+                Toast UI Editor
+              </a>
+              , comments, login/signup using JWT and Bcrypt
             </li>
             <li>
               HTML, CSS, JavaScript, React, React-router, Bootstrap, Ruby on
               Rails, PostgreSQL.
             </li>
             <li>
-              <a href="https://witme.netlify.app">
+              <a href="https://witme.netlify.app" target="_blank">
                 <button>Deployed Site Here</button>
               </a>
-              <a href="https://github.com/yeana-dev/Witme">
+              <a href="https://github.com/yeana-dev/Witme" target="_blank">
                 <button>
                   <i class="fab fa-github"></i> Github
                 </button>
@@ -51,17 +53,19 @@ export default function Projects() {
             </li>
             <li>
               Glasses' image datas are from{" "}
-              <a href="https://www.warbyparker.com/">Warby Parker</a>
+              <a href="https://www.warbyparker.com/" target="_blank">
+                Warby Parker
+              </a>
             </li>
             <li>
               HTML, CSS, JavaScript, React, React-router, Bootstrap, Node.js,
               Express, MongoDB
             </li>
             <li>
-              <a href="https://ysfj.netlify.app">
+              <a href="https://ysfj.netlify.app" target="_blank">
                 <button>Deployed Site Here</button>
               </a>
-              <a href="https://github.com/yeana-dev/ysfj">
+              <a href="https://github.com/yeana-dev/ysfj" target="_blank">
                 <button>
                   <i class="fab fa-github"></i> Github
                 </button>
@@ -82,14 +86,17 @@ export default function Projects() {
               languages and framework.
             </li>
             <li>
-              Used <a href="https://www.airtable.com/">Airtable RESTful API</a>
+              Used{" "}
+              <a href="https://www.airtable.com/" target="_blank">
+                Airtable RESTful API
+              </a>
             </li>
             <li>HTML, CSS, JavaScript, React, React-Router, Bootstrap</li>
             <li>
-              <a href="https://yeana-devlog.netlify.app">
+              <a href="https://yeana-devlog.netlify.app" target="_blank">
                 <button>Deployed Site Here</button>
               </a>
-              <a href="https://github.com/yeana-dev/devlog">
+              <a href="https://github.com/yeana-dev/devlog" target="_blank">
                 <button>
                   <i class="fab fa-github"></i> Github
                 </button>
@@ -107,19 +114,25 @@ export default function Projects() {
               "Nintendo Switch game 'Animal Crossing' critter encyclopedia"
             </li>
             <li>
-              Vanila JavaScript application for users to search critters by many
+              Pure JavaScript application for users to search critters by many
               search methods. User can insert time slot to see which critters
               are available, or simply search by their name.
             </li>
             <li>
-              Used <a href="http://acnhapi.com/">ACNH RESTful API</a>
+              Used{" "}
+              <a href="http://acnhapi.com/" target="_blank">
+                ACNH RESTful API
+              </a>
             </li>
             <li>HTML, CSS, Vanilla JavaScript</li>
             <li>
-              <a href="https://critterdex.netlify.app">
+              <a href="https://critterdex.netlify.app" target="_blank">
                 <button>Deployed Site Here</button>
               </a>
-              <a href="https://github.com/yeana-dev/Critterdex-for-animal-crossing">
+              <a
+                href="https://github.com/yeana-dev/Critterdex-for-animal-crossing"
+                target="_blank"
+              >
                 <button>
                   <i class="fab fa-github"></i> Github
                 </button>
