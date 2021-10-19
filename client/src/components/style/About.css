@@ -17,7 +17,7 @@
 #about header {
   font-size: 30px;
   font-weight: 700;
-  margin-bottom: 2em;
+  margin: 1em 0;
   font-family: "Noto Sans Mono", monospace;
 }
 
@@ -63,11 +63,6 @@
   background-color: #b0dedb9f;
   transition: all 250ms ease;
 }
-
-/* #about p:nth-child(2) {
-  font-size: 20px;
-  font-style: italic;
-} */
 
 #about .highlight {
   background-color: rgba(0, 255, 98, 0.3);
