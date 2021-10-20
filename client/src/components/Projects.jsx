@@ -10,7 +10,7 @@ export default function Projects() {
       <div id="container">
         <header id="projects-header">🖥 Recent projects I built</header>
         <div className="project">
-          <img src={WitmePreview} />
+          <img src={WitmePreview} alt="witme app preview" />
           <article>
             <header>Witme</header>
             <span>"A collaborative platform for devs and designers"</span>
@@ -53,7 +53,7 @@ export default function Projects() {
           </article>
         </div>
         <div className="project">
-          <img src={YsfjPreview} />
+          <img src={YsfjPreview} alt="ysfj app preview" />
           <article>
             <header>YSFJ</header>
             <span>"E-commerce for a virtual eyewear boutique"</span>
@@ -93,7 +93,7 @@ export default function Projects() {
           </article>
         </div>
         <div className="project">
-          <img src={DevlogPreview} />
+          <img src={DevlogPreview} alt="devlog app preview" />
           <article>
             <header>Devlog</header>
             <span>"Developer’s Log"</span>
@@ -134,7 +134,7 @@ export default function Projects() {
           </article>
         </div>
         <div className="project">
-          <img src={CritterdexPreview} />
+          <img src={CritterdexPreview} alt="critterdex app preview" />
           <article>
             <header>Critterdex</header>
             <span>
