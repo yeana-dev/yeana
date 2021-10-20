@@ -1,13 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import "./style/Contact.css";
 
 export default function Contact() {
+  const [sent, setSent] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setSent(true);
     emailjs
       .sendForm(
         "service_iiwc60s",
@@ -18,6 +19,8 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+
+          console.log(sent);
         },
         (error) => {
           console.log(error.text);
@@ -32,13 +35,13 @@ export default function Contact() {
           <header>💌 Contact me!</header>
           <p>
             I would love to have a chat with you! So fill in your info in the
-            form, and let's build something creative! Feel free to look at my
-            resume, GitHub, and LinkedIn 😊 Looking forward to speaking with
-            you!
+            form, and let's <i>build something creative!</i> Feel free to look
+            at my resume, GitHub, and LinkedIn 😊 Looking forward to speaking
+            with you!
           </p>
           <div id="about-links">
             <a
-              href="https://drive.google.com/file/d/13QWoYpUSJ78O2bbw-zrunp_qmQq6-FBq/view?usp=sharing"
+              href="https://drive.google.com/file/d/19EaeB6kRnJcQpKLiGzM_ljb4zPgCUys1/view?usp=sharing"
               target="_blank"
             >
               <button>
@@ -57,11 +60,21 @@ export default function Contact() {
             </a>
           </div>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" placeholder="Your name" name="user_name" />
-          <input type="email" placeholder="Email" name="user_email" />
-          <textarea name="message" placeholder="Message" rows="6" />
-          <input type="submit" value="Send" />
+        <form ref={form} onSubmit={sendEmail} onChange={() => setSent(false)}>
+          <input
+            type="text"
+            placeholder="Your name"
+            name="user_name"
+            required
+          />
+          <input type="email" placeholder="Email" name="user_email" required />
+          <textarea name="message" placeholder="Message" rows="6" required />
+          <input
+            type="submit"
+            value={sent ? "Sent! Talk to you soon 😊" : "Submit"}
+            className="contact-form-submit"
+            id={sent ? "sent" : "not-sent"}
+          />
         </form>
       </div>
     </div>
