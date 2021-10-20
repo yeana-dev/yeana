@@ -8,17 +8,21 @@
   padding: 0;
 }
 
-#nav-logo {
+.navbar #nav-logo,
+.scrolled-logo {
   font-weight: 800;
   letter-spacing: -2px;
   font-size: 30px;
-  color: rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease;
+  color: whitesmoke;
+  transition: all 250ms ease;
 }
 
-#nav-logo:hover {
-  color: rgba(0, 0, 0, 0.7);
-  transition: all 0.2s ease;
+.scrolled-logo,
+.navbar #nav-logo:hover {
+  background: -webkit-linear-gradient(#a8dee0, #efdfff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 250ms ease;
 }
 
 #navbar-link {

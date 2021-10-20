@@ -17,7 +17,11 @@ export default function Navigation() {
   return (
     <Navbar bg={navbar ? "white" : "transparent"} expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand href="#home" id="nav-logo">
+        <Navbar.Brand
+          href="#home"
+          id="nav-logo"
+          className={navbar ? "scrolled-logo" : "nav-logo"}
+        >
           yeana.dev
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
