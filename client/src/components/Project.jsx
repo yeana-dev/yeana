@@ -2,6 +2,7 @@ import "./style/Project.css";
 import Stack from "./Stack";
 import { stacks } from "../services/stacks";
 import { useState, useEffect } from "react";
+import parse from "html-react-parser";
 
 export default function Project(props) {
   const [stackIcons, setStackIcons] = useState([]);
@@ -27,7 +28,7 @@ export default function Project(props) {
         <span>"{props.project.sub_header}"</span>
         <ul>
           <li>{props.project.description}</li>
-          <li>{props.project.features}</li>
+          <li>{parse(props.project.features)}</li>
           <li className="stack-list">
             {stackIcons.map((stack) => (
               <Stack stack={stack} />
