@@ -19,6 +19,7 @@
   font-weight: 700;
   margin: 1em 0;
   font-family: "Noto Sans Mono", monospace;
+  background: linear-gradient(180deg, transparent 60%, #e8ff8d 10%);
 }
 
 #about #about-top {

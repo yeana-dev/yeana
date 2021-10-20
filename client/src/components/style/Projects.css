@@ -7,12 +7,19 @@
   gap: 10em;
 }
 
-#projects header {
+#projects-header {
   font-size: 30px;
   font-weight: 700;
   font-family: "Noto Sans Mono", monospace;
   letter-spacing: -1px;
   margin: 0 auto;
+  background: linear-gradient(180deg, transparent 70%, #ccf3f5 10%);
+  transition: all 150ms ease-out;
+}
+
+#projects-header:hover {
+  background-color: #ccf3f5;
+  transition: all 200ms ease;
 }
 
 #projects .project {

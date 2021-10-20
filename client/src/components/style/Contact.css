@@ -20,9 +20,12 @@
 }
 
 #contact-left header {
-  font-size: 30px;
+  font-size: 40px;
+  letter-spacing: -1px;
   font-weight: 700;
-  font-family: "Noto Sans Mono", monospace;
+  background: linear-gradient(180deg, transparent 70%, #eafca4 10%);
+  /* font-family: "Noto Sans Mono", monospace; */
+  font-family: "Noto Serif", serif;
 }
 
 #contact-left p {
@@ -45,13 +48,16 @@
   resize: none;
 }
 
+#about-links button {
+  font-weight: bold;
+}
+
 #about-links button,
 .contact-form-submit {
   color: white;
   font-family: "Noto Sans Mono", monospace;
   transition: all 200ms ease;
   background-color: black;
-  /* font-weight: bold; */
   font-size: 12px;
   padding: 5px 15px;
   border: none;
