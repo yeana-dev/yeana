@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <div id="projects">
       <div id="container">
-        <header>🖥 Recent projects I built</header>
+        <header id="projects-header">🖥 Recent projects I built</header>
         <div className="project">
           <img src={WitmePreview} />
           <article>
