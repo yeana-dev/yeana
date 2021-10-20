@@ -40,7 +40,6 @@ export default function Navigation() {
               href="https://drive.google.com/file/d/19EaeB6kRnJcQpKLiGzM_ljb4zPgCUys1/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              rel="noopener noreferrer"
             >
               Resume
             </Nav.Link>
