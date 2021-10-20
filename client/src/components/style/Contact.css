@@ -16,19 +16,19 @@
 }
 
 #contact #container > * {
-  width: 40%;
+  width: 45%;
 }
 
 #contact-left header {
   font-size: 30px;
   font-weight: 700;
-  margin-bottom: 1em;
   font-family: "Noto Sans Mono", monospace;
 }
 
 #contact-left p {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 14px;
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+  margin: 3rem 0;
 }
 
 #contact form {
@@ -45,20 +45,30 @@
   resize: none;
 }
 
-#about-links button {
+#about-links button,
+.contact-form-submit {
   color: white;
   font-family: "Noto Sans Mono", monospace;
   transition: all 200ms ease;
   background-color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 12px;
   padding: 5px 15px;
   border: none;
   border-radius: 10px;
+}
+
+#about-links button {
   margin-right: 2em;
 }
 
-#about-links button:hover {
+#about-links button:hover,
+.contact-form-submit:hover {
   background-color: #85b0c9;
   transition: all 200ms ease;
+}
+
+#sent {
+  background-color: #eafca4;
+  color: black;
 }
