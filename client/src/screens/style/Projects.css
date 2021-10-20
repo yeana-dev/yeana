@@ -25,7 +25,7 @@
 #projects .project {
   display: flex;
   align-items: center;
-  gap: 10em;
+  gap: 7em;
   border-radius: 20px;
   box-shadow: rgb(0 0 0 / 8%) 0px 2px 6px;
   background-color: #fbfaf8;
