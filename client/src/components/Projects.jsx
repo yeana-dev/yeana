@@ -20,7 +20,11 @@ export default function Projects() {
               </li>
               <li>
                 Features: WYSIWYG text editor{" "}
-                <a href="https://ui.toast.com/tui-editor" target="_blank">
+                <a
+                  href="https://ui.toast.com/tui-editor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Toast UI Editor
                 </a>
                 , comments, login/signup using JWT and Bcrypt
@@ -30,10 +34,18 @@ export default function Projects() {
                 Rails, PostgreSQL.
               </li>
             </ul>
-            <a href="https://witme.netlify.app" target="_blank">
+            <a
+              href="https://witme.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>Deployed Site Here</button>
             </a>
-            <a href="https://github.com/yeana-dev/Witme" target="_blank">
+            <a
+              href="https://github.com/yeana-dev/Witme"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>
                 <i class="fab fa-github"></i> Github
               </button>
@@ -53,7 +65,11 @@ export default function Projects() {
               </li>
               <li>
                 Glasses' image datas are from{" "}
-                <a href="https://www.warbyparker.com/" target="_blank">
+                <a
+                  href="https://www.warbyparker.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Warby Parker
                 </a>
               </li>
@@ -62,10 +78,14 @@ export default function Projects() {
                 Express, MongoDB
               </li>
             </ul>
-            <a href="https://ysfj.netlify.app" target="_blank">
+            <a href="https://ysfj.netlify.app" target="_blank" rel="noreferrer">
               <button>Deployed Site Here</button>
             </a>
-            <a href="https://github.com/yeana-dev/ysfj" target="_blank">
+            <a
+              href="https://github.com/yeana-dev/ysfj"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>
                 <i class="fab fa-github"></i> Github
               </button>
@@ -85,16 +105,28 @@ export default function Projects() {
               </li>
               <li>
                 Used{" "}
-                <a href="https://www.airtable.com/" target="_blank">
+                <a
+                  href="https://www.airtable.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Airtable RESTful API
                 </a>
               </li>
               <li>HTML, CSS, JavaScript, React, React-Router, Bootstrap</li>
             </ul>
-            <a href="https://yeana-devlog.netlify.app" target="_blank">
+            <a
+              href="https://yeana-devlog.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>Deployed Site Here</button>
             </a>
-            <a href="https://github.com/yeana-dev/devlog" target="_blank">
+            <a
+              href="https://github.com/yeana-dev/devlog"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>
                 <i class="fab fa-github"></i> Github
               </button>
@@ -116,18 +148,23 @@ export default function Projects() {
               </li>
               <li>
                 Used{" "}
-                <a href="http://acnhapi.com/" target="_blank">
+                <a href="http://acnhapi.com/" target="_blank" rel="noreferrer">
                   ACNH RESTful API
                 </a>
               </li>
               <li>HTML, CSS, Vanilla JavaScript</li>
             </ul>
-            <a href="https://critterdex.netlify.app" target="_blank">
+            <a
+              href="https://critterdex.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>Deployed Site Here</button>
             </a>
             <a
               href="https://github.com/yeana-dev/Critterdex-for-animal-crossing"
               target="_blank"
+              rel="noreferrer"
             >
               <button>
                 <i class="fab fa-github"></i> Github

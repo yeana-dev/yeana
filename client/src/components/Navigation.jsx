@@ -39,6 +39,7 @@ export default function Navigation() {
               id="navbar-link"
               href="https://drive.google.com/file/d/19EaeB6kRnJcQpKLiGzM_ljb4zPgCUys1/view?usp=sharing"
               target="_blank"
+              rel="noreferrer"
               rel="noopener noreferrer"
             >
               Resume

@@ -43,17 +43,26 @@ export default function Contact() {
             <a
               href="https://drive.google.com/file/d/19EaeB6kRnJcQpKLiGzM_ljb4zPgCUys1/view?usp=sharing"
               target="_blank"
+              rel="noreferrer"
             >
               <button>
                 <i className="fas fa-file" /> Resume
               </button>
             </a>
-            <a href="https://github.com/yeana-dev" target="_blank">
+            <a
+              href="https://github.com/yeana-dev"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>
                 <i className="fab fa-github-square" /> Github
               </button>
             </a>
-            <a href="https://www.linkedin.com/in/yeanacho/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/yeanacho/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>
                 <i className="fab fa-linkedin" /> LinkedIn
               </button>
