@@ -1,0 +1,14 @@
+.project-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  gap: 15px;
+  font-size: 12px;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.project-tools svg {
+  width: 40px;
+  display: block;
+}
