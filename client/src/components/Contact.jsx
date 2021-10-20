@@ -32,7 +32,7 @@ export default function Contact() {
     <div id="contact">
       <div id="container">
         <div id="contact-left">
-          <header>💌 Contact me!</header>
+          <header>📬 Contact me</header>
           <p>
             I would love to have a chat with you! So fill in your info in the
             form, and let's <i>build something creative!</i> Feel free to look
