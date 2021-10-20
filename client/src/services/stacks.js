@@ -45,7 +45,7 @@ export const stacks = [
     color: "#CC342D",
   },
   {
-    name: "Ruby on Rails",
+    name: "Rails",
     svg: (
       <svg
         fill="#CC0000"
