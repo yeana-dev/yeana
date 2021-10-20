@@ -1,4 +1,5 @@
 import "./style/About.css";
+import Stack from "../components/Stack";
 import YeanaImg from "../assets/yeana.png";
 import { stacks } from "../services/stacks";
 
@@ -36,11 +37,8 @@ export default function About() {
           <div className="tools">
             <header>👩🏻‍💻 My current stacks are</header>
             <div className="tools-list">
-              {stacks.map((stack) => (
-                <div className="tools-item">
-                  {stack.svg}
-                  {stack.name}
-                </div>
+              {stacks.slice(0, 10).map((stack) => (
+                <Stack stack={stack} />
               ))}
             </div>
           </div>
