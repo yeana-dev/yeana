@@ -21,7 +21,7 @@ export default function Project(props) {
 
   return (
     <div className="project">
-      <img src={props.project.preview} alt="App preview" />
+      <img src={Object.values(props.project.preview)[0]} alt="App preview" />
       <article>
         <header>{props.project.title}</header>
         <span>"{props.project.sub_header}"</span>
