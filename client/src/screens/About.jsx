@@ -23,8 +23,7 @@ export default function About() {
 
             <p>
               When I am not coding, you can find me playing Pokemon Unite or
-              Animal crossing on my switch, or working on my side project at
-              Starbucks!
+              Animal crossing on my switch, or working on my side project 👩🏻‍💻
             </p>
 
             <p>
