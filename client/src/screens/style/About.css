@@ -1,5 +1,4 @@
 #about {
-  /* height: 100vh; */
   background-color: whitesmoke;
   display: flex;
   justify-content: center;
@@ -17,7 +16,6 @@
 #about header {
   font-size: 30px;
   font-weight: 700;
-  /* margin: 1em 0; */
   font-family: "Noto Sans Mono", monospace;
   background: linear-gradient(180deg, transparent 60%, #e8ff8d 10%);
 }
@@ -34,12 +32,13 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin-top: 3em;
 }
 
 #about p {
   font-family: "Noto Sans", sans-serif;
   line-height: 30px;
-  font-size: 16px;
+  font-size: 15px;
   margin: 2em 0;
 }
 
