@@ -41,7 +41,7 @@ export default function Navigation() {
             </Nav.Link>
             <Nav.Link
               id="navbar-link"
-              href="https://drive.google.com/file/d/19EaeB6kRnJcQpKLiGzM_ljb4zPgCUys1/view?usp=sharing"
+              href="https://drive.google.com/file/d/1J4OQ3a7J8_ha8m9hwbYgK2SFEFfn3qdJ/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
