@@ -29,8 +29,10 @@ export default function Home() {
           </header>
           <div className="short-description">
             I am a <span className="highlight">software engineer</span> born in
-            Seoul, South Korea 🇰🇷, <br />
-            and currently based in Houston, Texas 🇺🇸
+            Seoul, South Korea 🇰🇷,{" "}
+            <span className="based-in">
+              and currently based in Houston, Texas 🇺🇸
+            </span>
             <p>
               I enjoy building{" "}
               <Typewriter
