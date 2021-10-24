@@ -67,11 +67,15 @@
 @media (max-width: 992px) {
   #about #container {
     flex-direction: column;
+    gap: 4em;
   }
   #about .tools-list {
     justify-content: center;
   }
   #about header {
     text-align: center;
+  }
+  #about-right-col {
+    margin: 0;
   }
 }
