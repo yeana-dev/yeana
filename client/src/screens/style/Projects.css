@@ -92,3 +92,18 @@
   background-color: #d8ff4a7a;
   transition: all 200ms ease;
 }
+
+@media (max-width: 992px) {
+  #projects .project {
+    flex-direction: column;
+    gap: 3em;
+    padding: 4em;
+  }
+  #projects .project img {
+    width: 100%;
+  }
+  .project article span {
+    display: block;
+    margin-left: 0;
+  }
+}
