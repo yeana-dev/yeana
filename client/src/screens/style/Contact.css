@@ -24,7 +24,6 @@
   letter-spacing: -1px;
   font-weight: 700;
   background: linear-gradient(180deg, transparent 70%, #eafca4 10%);
-  /* font-family: "Noto Sans Mono", monospace; */
   font-family: "Noto Serif", serif;
 }
 
@@ -64,8 +63,12 @@
   border-radius: 10px;
 }
 
-#about-links button {
+#about-links a {
   margin-right: 2em;
+}
+
+#about-links a:last-child {
+  margin-right: 0;
 }
 
 #about-links button:hover,
@@ -88,5 +91,11 @@
   }
   #contact form {
     margin-top: 3rem;
+  }
+  #about-links {
+    text-align: center;
+  }
+  #about-links a {
+    margin-right: 1em;
   }
 }
