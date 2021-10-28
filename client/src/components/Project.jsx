@@ -35,14 +35,16 @@ export default function Project(props) {
             ))}
           </li>
         </ul>
-        <a href={props.project.siteURL} target="_blank" rel="noreferrer">
-          <button>Deployed Site Here</button>
-        </a>
-        <a href={props.project.githubURL} target="_blank" rel="noreferrer">
-          <button>
-            <i class="fab fa-github"></i> Github
-          </button>
-        </a>
+        <div className="links">
+          <a href={props.project.siteURL} target="_blank" rel="noreferrer">
+            <button>Deployed Site Here</button>
+          </a>
+          <a href={props.project.githubURL} target="_blank" rel="noreferrer">
+            <button>
+              <i class="fab fa-github"></i> Github
+            </button>
+          </a>
+        </div>
       </article>
     </div>
   );
