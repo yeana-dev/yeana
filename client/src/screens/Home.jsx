@@ -2,6 +2,7 @@ import "./style/Home.css";
 import { useState, useEffect } from "react";
 import { Typewriter } from "typewriting-react";
 import { ReactComponent as MiniAvatar } from "../assets/MiniAvatar.svg";
+import YeanaAvatar from "../assets/Yeana Cho_1 copy.png";
 
 export default function Home() {
   const [greeting, setGreeting] = useState("");
@@ -48,7 +49,7 @@ export default function Home() {
           </div>
         </div>
         <div className="home-right">
-          <MiniAvatar />
+          <img src={YeanaAvatar} alt="yeana avatar" />
         </div>
       </div>
     </div>
