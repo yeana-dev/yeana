@@ -1,8 +1,7 @@
 import "./style/Home.css";
 import { useState, useEffect } from "react";
 import { Typewriter } from "typewriting-react";
-import { ReactComponent as MiniAvatar } from "../assets/MiniAvatar.svg";
-import YeanaAvatar from "../assets/Yeana Cho_1 copy.png";
+import YeanaAvatar from "../assets/yeanaAvatar.png";
 
 export default function Home() {
   const [greeting, setGreeting] = useState("");
