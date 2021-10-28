@@ -101,7 +101,7 @@
   #projects .project {
     flex-direction: column;
     gap: 3em;
-    padding: 4em;
+    padding: 1em;
   }
   #projects .project img {
     width: 100%;
