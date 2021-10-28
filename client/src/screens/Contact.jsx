@@ -39,7 +39,7 @@ export default function Contact() {
           </p>
           <div id="about-links">
             <a
-              href="https://drive.google.com/file/d/1_Jv0ObLkOEfs8qJ4zFRwtfNZu2KIkMEJ/view"
+              href="https://drive.google.com/file/d/143WMWzZrKrN96e9dfXnCJ8qom3kMYFea/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
