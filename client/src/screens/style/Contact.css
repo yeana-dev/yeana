@@ -64,7 +64,7 @@
 }
 
 #about-links a {
-  margin-right: 2em;
+  margin-right: 10px;
 }
 
 #about-links a:last-child {
@@ -94,8 +94,5 @@
   }
   #about-links {
     text-align: center;
-  }
-  #about-links a {
-    margin-right: 1em;
   }
 }
