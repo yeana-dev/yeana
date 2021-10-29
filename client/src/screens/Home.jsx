@@ -39,7 +39,7 @@ export default function Home() {
                 words={[
                   "interactive applications.",
                   "eye-catching applications.",
-                  "clean and well-strctured codebase.",
+                  "clean and well-structured codebase.",
                 ]}
                 typingSpeed="50"
                 erasingSpeed="60"
