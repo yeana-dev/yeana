@@ -20,11 +20,11 @@
 .project {
   display: flex;
   align-items: center;
-  gap: 7em;
+  gap: 5em;
   border-radius: 20px;
   box-shadow: rgb(0 0 0 / 8%) 0px 2px 6px;
   background-color: white;
-  padding: 2em;
+  padding: 2em 5em;
 }
 
 .project img {
@@ -103,7 +103,6 @@
   }
   .project img {
     width: 100%;
-    padding-top: 3em;
   }
   .project article span {
     display: block;
