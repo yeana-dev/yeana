@@ -99,7 +99,7 @@
   .project {
     flex-direction: column;
     gap: 3em;
-    padding: 1em;
+    padding: 3em;
   }
   .project img {
     width: 100%;
@@ -109,13 +109,12 @@
     display: block;
     margin-left: 0;
   }
+  .stack-list {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
-  .project .links {
-    flex-direction: column;
-    gap: 10px;
-  }
   .project {
     border-radius: 0px;
   }
