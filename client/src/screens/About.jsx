@@ -34,7 +34,7 @@ export default function About() {
           </article>
 
           <div className="tools">
-            <header>👩🏻‍💻 My current stacks are</header>
+            <header>👩🏻‍💻 My current stacks</header>
             <div className="tools-list">
               {stacks.slice(0, 10).map((stack) => (
                 <Stack stack={stack} />
