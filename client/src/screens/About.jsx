@@ -35,11 +35,11 @@ export default function About() {
 
           <div className="tools">
             <header>👩🏻‍💻 My current stacks</header>
-            <div className="tools-list">
+            <ul className="tools-list">
               {stacks.slice(0, 10).map((stack) => (
                 <Stack stack={stack} />
               ))}
-            </div>
+            </ul>
           </div>
         </div>
       </div>
