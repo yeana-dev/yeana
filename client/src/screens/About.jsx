@@ -10,7 +10,7 @@ export default function About() {
         <img src={YeanaImg} alt="yeana" />
         <div id="about-right-col">
           <article>
-            <header>😉 Hi! Thank you for checking in!</header>
+            <h1>😉 Hi! Thank you for checking in!</h1>
             <p>
               I am a software engineer graduated from General Assembly's
               software engineer immersive program, where I developed my
