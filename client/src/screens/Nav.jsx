@@ -6,45 +6,36 @@ export default function Nav() {
   const menu = document.getElementById("menu");
   const hide = () => menu.classList.toggle("hidden");
   return (
-    <nav className="fixed w-full bg-white bg-opacity-0 uppercase" id="top">
+    <nav className="fixed w-full bg-white bg-opacity-0" id="top">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex space-x-7 justify-between">
           <div>
-            <a href="#home" className="flex items-center py-4 px-2">
+            <a
+              href="#home"
+              className="flex items-center py-4 px-2 italic font-semibold"
+            >
               yeana.dev
             </a>
           </div>
 
-          <ul className="hidden md:flex items-center space-x-4 wide-menu text-sm">
+          <ul className="hidden md:flex items-center space-x-4 wide-menu text-sm uppercase">
             <li>
-              <a
-                href="#home"
-                className="py-4 px-2 font-semibold transition duration-300"
-              >
+              <a href="#home" className="py-4 px-2 transition duration-300">
                 Home
               </a>
             </li>
             <li>
-              <a
-                href="#about"
-                className="py-4 px-2 font-semibold transition duration-300"
-              >
+              <a href="#about" className="py-4 px-2 transition duration-300">
                 About
               </a>
             </li>
             <li>
-              <a
-                href="#projects"
-                className="py-4 px-2 font-semibold transition duration-300"
-              >
+              <a href="#projects" className="py-4 px-2 transition duration-300">
                 Projects
               </a>
             </li>
             <li>
-              <a
-                href="#contact"
-                className="py-4 px-2 font-semibold transition duration-300"
-              >
+              <a href="#contact" className="py-4 px-2 transition duration-300">
                 Contact
               </a>
             </li>
@@ -53,7 +44,7 @@ export default function Nav() {
                 href="https://drive.google.com/file/d/1f-v5MgcNb6cZegXW-SYpRv36UIILGKZH/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
-                className="py-4 px-2 font-semibold transition duration-300"
+                className="py-4 px-2 transition duration-300"
               >
                 Resume
               </a>
