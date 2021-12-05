@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <div
       id="home"
-      className="max-w-6xl h-screen mx-auto px-4 flex flex-col justify-end"
+      className="max-w-6xl h-screen mx-auto flex flex-col justify-end"
     >
       <header>
         <h1 className="font-bold text-6xl">
           Hi 👋&nbsp;&nbsp;My name is{" "}
-          <span className="text-purple-500">Yeana</span>,
+          <span className="text-purple-400">Yeana</span>,
         </h1>
         <div className="font-semibold text-3xl py-3">
           and I am a software engineer who strives to <br />
