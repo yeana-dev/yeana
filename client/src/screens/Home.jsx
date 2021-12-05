@@ -1,55 +1,37 @@
-import "./style/Home.css";
-import { useState, useEffect } from "react";
 import { Typewriter } from "typewriting-react";
 import YeanaAvatar from "../assets/yeanaAvatar.png";
 
 export default function Home() {
-  const [greeting, setGreeting] = useState("");
-
-  useEffect(() => {
-    const changeGreeting = () => {
-      const currentHour = new Date().getHours();
-      if (currentHour < 12 && currentHour > 5) {
-        setGreeting("Good morning");
-      } else if (currentHour >= 12 && currentHour < 17) {
-        setGreeting("Good afternoon");
-      } else {
-        setGreeting("Good evening");
-      }
-    };
-    changeGreeting();
-  }, []);
-
   return (
-    <div id="home">
-      <div className="container">
-        <div className="home-left">
-          <header>
-            {greeting} 👋&nbsp;&nbsp;My name is<span id="yeana">Yeana Cho</span>
-          </header>
-          <div className="short-description">
-            I am a <span className="highlight">software engineer</span> born in
-            Seoul, South Korea 🇰🇷,{" "}
-            <span className="based-in">
-              and currently based in Houston, Texas 🇺🇸
-            </span>
-            <p>
-              I enjoy building{" "}
-              <Typewriter
-                words={[
-                  "interactive applications.",
-                  "eye-catching applications.",
-                  "clean and well-structured codebase.",
-                ]}
-                typingSpeed="50"
-                erasingSpeed="60"
-              />
-            </p>
-          </div>
+    <div
+      id="home"
+      className="max-w-6xl mx-auto px-4 flex h-screen justify-between items-center"
+    >
+      <header>
+        <h1 className="font-bold text-5xl">
+          Hi 👋&nbsp;&nbsp;My name is{" "}
+          <span className="text-purple-500">Yeana</span>,
+        </h1>
+        <div className="font-semibold text-3xl py-3">
+          and I am a software engineer who strives to <br />
+          build{" "}
+          <Typewriter
+            words={[
+              "creative and interactive applications.",
+              "eye-catching applications.",
+              "clean and well-structured codebase.",
+            ]}
+            typingSpeed="50"
+            erasingSpeed="60"
+          />
         </div>
-        <div className="home-right">
-          <img src={YeanaAvatar} alt="yeana avatar" />
-        </div>
+      </header>
+      <div className="h-full">
+        <img
+          src={YeanaAvatar}
+          alt="yeana avatar"
+          className="absolute bottom-0"
+        />
       </div>
     </div>
   );
