@@ -7,12 +7,12 @@ export default function Nav() {
   const hide = () => menu.classList.toggle("hidden");
   return (
     <nav className="fixed w-full bg-white z-50" id="top">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto">
         <div className="flex space-x-7 justify-between">
           <div>
             <a
               href="#home"
-              className="flex items-center py-4 px-2 italic font-semibold"
+              className="flex items-center py-4 px-2 italic text-xl font-semibold"
             >
               yeana.dev
             </a>
