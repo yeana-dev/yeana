@@ -1,10 +1,10 @@
-import Navigation from "./Navigation";
+import Nav from "./Nav";
 import Footer from "./Footer";
 
 export default function Layout(props) {
   return (
     <>
-      <Navigation />
+      <Nav />
       {props.children}
       <Footer />
     </>
