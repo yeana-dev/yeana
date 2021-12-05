@@ -6,7 +6,7 @@ export default function Nav() {
   const menu = document.getElementById("menu");
   const hide = () => menu.classList.toggle("hidden");
   return (
-    <nav className="fixed w-full bg-white bg-opacity-0" id="top">
+    <nav className="fixed w-full bg-white z-50" id="top">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex space-x-7 justify-between">
           <div>
