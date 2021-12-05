@@ -12,6 +12,21 @@ module.exports = {
       gray: colors.trueGray,
       indigo: colors.indigo,
       purple: colors.violet,
+      green: colors.emerald,
+      pink: colors.pink,
+      yellow: colors.yellow,
+    },
+    fontFamily: {
+      sans: ['"Poppins"', "sans-serif"],
+      serif: ['"Merriweather"', "serif"],
+    },
+    extend: {
+      backgroundImage: {
+        "split-purple-bottom":
+          "linear-gradient(to bottom, transparent 60%, #cdbcff 10%);",
+        "split-green-bottom":
+          "linear-gradient(to bottom, transparent 60%, #A7F3D0 10%);",
+      },
     },
   },
   variants: {
