@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <div
       id="home"
-      className="max-w-6xl mx-auto px-4 flex h-screen justify-between items-center"
+      className="max-w-6xl h-screen mx-auto px-4 flex flex-col justify-end"
     >
       <header>
-        <h1 className="font-bold text-5xl">
+        <h1 className="font-bold text-6xl">
           Hi 👋&nbsp;&nbsp;My name is{" "}
           <span className="text-purple-500">Yeana</span>,
         </h1>
@@ -26,12 +26,8 @@ export default function Home() {
           />
         </div>
       </header>
-      <div className="h-full">
-        <img
-          src={YeanaAvatar}
-          alt="yeana avatar"
-          className="absolute bottom-0"
-        />
+      <div className="h-96 flex justify-end items-end mt-8">
+        <img src={YeanaAvatar} alt="yeana avatar" />
       </div>
     </div>
   );
