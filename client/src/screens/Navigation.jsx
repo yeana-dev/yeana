@@ -70,7 +70,7 @@ export default function Navigation() {
             </Nav.Link>
             <Nav.Link
               id="navbar-link"
-              href="https://drive.google.com/file/d/1dEcJFLwtpDU1eA7JcvnwnTObwRxZKaot/view?usp=sharing"
+              href="https://drive.google.com/file/d/1f-v5MgcNb6cZegXW-SYpRv36UIILGKZH/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               onClick={() => setExpanded(false)}
