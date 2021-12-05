@@ -16,8 +16,8 @@ export default function About() {
       </header>
       <div className="py-10">
         <main className="flex flex-col items-center gap-16 max-w-6xl mx-auto">
-          <div className="flex flex-col lg:gap-10 lg:flex-row items-center">
-            <img src={YeanaImg} alt="yeana" className="mr-10" />
+          <div className="flex flex-col lg:gap-20 lg:flex-row items-center">
+            <img src={YeanaImg} alt="yeana" />
             <article className="text-sm font-serif flex flex-col gap-10 mt-10 leading-loose">
               <h1 className="text-2xl lg:text-3xl font-bold bg-split-purple-bottom font-sans px-4 lg:px-0">
                 😉 Hi! Thank you for checking in!
