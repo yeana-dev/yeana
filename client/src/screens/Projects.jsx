@@ -8,7 +8,9 @@ export default function Projects() {
       </h1>
       <div className="flex flex-wrap justify-center gap-16 my-20 max-w-6xl mx-auto">
         {projects.map((project) => (
-          <img src={project.mainPreview} />
+          <a href={project.siteURL} target="_blank" rel="noreferrer">
+            <img src={project.mainPreview} />
+          </a>
         ))}
       </div>
     </div>
