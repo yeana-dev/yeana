@@ -33,7 +33,7 @@ export const projects = [
       "React Router",
     ],
     siteURL: "https://advancing-justice.netlify.app",
-    githubURL: "https://github.com",
+    githubURL: "https://github.com/yeana-dev/essteem-advancing-justice",
   },
   {
     title: "Witme",
