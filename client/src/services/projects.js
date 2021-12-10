@@ -1,10 +1,17 @@
 // Main Preview
-import AaajPreview from "../assets/aaaj_preview.png";
-import WitmePreview from "../assets/witme_preview.png";
-import YsfjPreview from "../assets/ysfj_preview.png";
-import DevlogPreview from "../assets/devlog_preview.png";
-import CritterdexPreview from "../assets/critterdex_preview.png";
-import WeatherappPreview from "../assets/weatherapp_preview.png";
+import AaajPreview from "../assets/projects/preview/aaaj_preview.png";
+import WitmePreview from "../assets/projects/preview/witme_preview.png";
+import YsfjPreview from "../assets/projects/preview/ysfj_preview.png";
+import DevlogPreview from "../assets/projects/preview/devlog_preview.png";
+import CritterdexPreview from "../assets/projects/preview/critterdex_preview.png";
+import WeatherappPreview from "../assets/projects/preview/weatherapp_preview.png";
+// Browser Preview on detail page
+import AaajBrowser from "../assets/projects/browser/aaajBrowser.png";
+import WitmeBrowser from "../assets/projects/browser/witmeBrowser.png";
+import YsfjBrowser from "../assets/projects/browser/ysfjBrowser.png";
+import DevlogBrowser from "../assets/projects/browser/devlogBrowser.png";
+import CritterdexBrowser from "../assets/projects/browser/critterdexBrowser.png";
+import WeatherBrowser from "../assets/projects/browser/weatherBrowser.png";
 // Prototype
 import WitmePrototype from "../assets/prototype/witme_preview.png";
 import YsfjPrototype from "../assets/prototype/ysfj_preview.png";
@@ -14,9 +21,10 @@ import CritterdexPrototype from "../assets/prototype/critterdex_preview.png";
 export const projects = [
   {
     title: "Asian American Advancing Justice",
+    slug: "aaaj",
     mainPreview: AaajPreview,
-    // prototype: AaajPrototype,
-    seb_header: "test",
+    browser: AaajBrowser,
+    sub_header: "test",
     description: "test",
     features: `test`,
     used_stacks: ["HTML"],
@@ -25,8 +33,9 @@ export const projects = [
   },
   {
     title: "Witme",
+    slug: "witme",
     mainPreview: WitmePreview,
-    prototype: WitmePrototype,
+    browser: WitmeBrowser,
     sub_header: "A collaborative platform for devs and designers",
     description: "A Full-stack application using PostgreSQL and Ruby on Rails.",
     features: `Features: WYSIWYG text editor <a href="https://ui.toast.com/tui-editor" target="_blank" rel="noreferrer">Toast UI Editor</a>, comments, login/signup using JWT and Bcrypt`,
@@ -46,8 +55,9 @@ export const projects = [
   },
   {
     title: "YSFJ",
+    slug: "ysfj",
     mainPreview: YsfjPreview,
-    prototype: YsfjPrototype,
+    browser: YsfjBrowser,
     sub_header: "E-commerce for a virtual eyewear boutique",
     description:
       "A full-stack MERN application built with three other developers using MongoDB and Express.js. Used JWT and bcrypt for user authentication and authorization.",
@@ -68,8 +78,9 @@ export const projects = [
   },
   {
     title: "Devlog",
+    slug: "devlog",
     mainPreview: DevlogPreview,
-    prototype: DevlogPrototype,
+    browser: DevlogBrowser,
     sub_header: "Developer’s Log",
     description:
       "Single-page application for developers to log their learning progress and post their projects. Posts are categorized by languages and framework.",
@@ -87,8 +98,9 @@ export const projects = [
   },
   {
     title: "Critterdex",
+    slug: "critterdex",
     mainPreview: CritterdexPreview,
-    prototype: CritterdexPrototype,
+    browser: CritterdexBrowser,
     sub_header: "Nintendo Switch game 'Animal Crossing' critter encyclopedia",
     description:
       "Pure JavaScript application for users to search critters by many search methods. User can insert time slot to see which critters are available, or simply search by their name.",
@@ -99,8 +111,9 @@ export const projects = [
   },
   {
     title: "Weather App",
+    slug: "weather_app",
     mainPreview: WeatherappPreview,
-    // prototype: AaajPrototype,
+    browser: WeatherBrowser,
     seb_header: "test",
     description: "test",
     features: `test`,
