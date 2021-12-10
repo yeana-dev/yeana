@@ -13,6 +13,12 @@ export default function ProjectDetail() {
       }
     });
   });
+  function openSite() {
+    window.open(project.siteURL);
+  }
+  function openGithub() {
+    window.open(project.githubURL);
+  }
   return (
     <div className="pt-16">
       <header className="bg-split-grey-top py-10">
@@ -25,10 +31,16 @@ export default function ProjectDetail() {
             <div className="flex flex-col gap-5 items-end italic">
               <h2 className="block">"{project.sub_header}"</h2>
               <div className="flex gap-3">
-                <button className="bg-purple-100 py-2 px-5 rounded-xl font-bold uppercase text-sm transition hover:bg-purple-200 hover:ease-in-out duration-250">
+                <button
+                  onClick={() => openSite()}
+                  className="bg-purple-100 py-2 px-5 rounded-xl font-bold uppercase text-sm transition hover:bg-purple-200 hover:ease-in-out duration-250"
+                >
                   Deployed Site
                 </button>
-                <button className="bg-purple-100 py-2 px-5 rounded-xl font-bold uppercase text-sm transition hover:bg-purple-200 hover:ease-in-out duration-250">
+                <button
+                  onClick={() => openGithub()}
+                  className="bg-purple-100 py-2 px-5 rounded-xl font-bold uppercase text-sm transition hover:bg-purple-200 hover:ease-in-out duration-250"
+                >
                   Github Repo
                 </button>
               </div>
@@ -48,7 +60,7 @@ export default function ProjectDetail() {
             </li>
           ))}
         </ul>
-        <p className="font-serif text-xl leading-10 text-center">
+        <p className="font-serif text-lg leading-10 text-center">
           {project.description}
         </p>
       </div>
