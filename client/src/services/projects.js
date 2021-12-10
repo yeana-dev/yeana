@@ -12,11 +12,6 @@ import YsfjBrowser from "../assets/projects/browser/ysfjBrowser.png";
 import DevlogBrowser from "../assets/projects/browser/devlogBrowser.png";
 import CritterdexBrowser from "../assets/projects/browser/critterdexBrowser.png";
 import WeatherBrowser from "../assets/projects/browser/weatherBrowser.png";
-// Prototype
-import WitmePrototype from "../assets/prototype/witme_preview.png";
-import YsfjPrototype from "../assets/prototype/ysfj_preview.png";
-import DevlogPrototype from "../assets/prototype/devlog_preview.png";
-import CritterdexPrototype from "../assets/prototype/critterdex_preview.png";
 
 export const projects = [
   {
@@ -24,10 +19,19 @@ export const projects = [
     slug: "aaaj",
     mainPreview: AaajPreview,
     browser: AaajBrowser,
-    sub_header: "test",
-    description: "test",
-    features: `test`,
-    used_stacks: ["HTML"],
+    sub_header:
+      "A national affiliation of five civil rights non-profit organizations",
+    description:
+      "As participation of Essteem's Equality Hackathon, Our team of four designers and developers designed and built a new main website for AAAJ to clarify that they are five separate organizations in the Asian Americans Advancing Justice affiliation. We integrated Sanity.io headless CMS to make the website easily updatable by the organization. We developed two different responsive designs for mobile and desktop using Tailwind CSS.",
+    used_stacks: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Bootstrap",
+      "JavaScript",
+      "React",
+      "React Router",
+    ],
     siteURL: "https://advancing-justice.netlify.app",
     githubURL: "https://github.com",
   },
