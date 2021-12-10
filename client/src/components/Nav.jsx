@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link, useParams } from "react-router-dom";
 
 export default function Nav() {
   const [toggle, setToggle] = useState(false);
@@ -10,32 +11,35 @@ export default function Nav() {
       <div className="max-w-6xl mx-auto">
         <div className="flex space-x-7 justify-between">
           <div>
-            <a
-              href="#home"
+            <Link
+              to="/"
               className="flex items-center py-4 px-2 italic text-xl font-semibold"
             >
               yeana.dev
-            </a>
+            </Link>
           </div>
 
           <ul className="hidden md:flex items-center space-x-4 wide-menu text-sm uppercase">
             <li>
-              <a href="#home" className="py-4 px-2 transition duration-300">
+              <a href="/#home" className="py-4 px-2 transition duration-300">
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="py-4 px-2 transition duration-300">
+              <a href="/#about" className="py-4 px-2 transition duration-300">
                 About
               </a>
             </li>
             <li>
-              <a href="#projects" className="py-4 px-2 transition duration-300">
+              <a
+                href="/#projects"
+                className="py-4 px-2 transition duration-300"
+              >
                 Projects
               </a>
             </li>
             <li>
-              <a href="#contact" className="py-4 px-2 transition duration-300">
+              <a href="/#contact" className="py-4 px-2 transition duration-300">
                 Contact
               </a>
             </li>
