@@ -27,7 +27,7 @@ module.exports = {
         "split-green-bottom":
           "linear-gradient(to bottom, transparent 60%, #A7F3D0 10%);",
         "split-grey-top":
-          "linear-gradient(to bottom, #F0F0F0 55%, transparent 10%);",
+          "linear-gradient(to bottom, #F0F0F0 50%, transparent 10%);",
       },
     },
   },
