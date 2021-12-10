@@ -26,6 +26,8 @@ module.exports = {
           "linear-gradient(to bottom, transparent 60%, #cdbcff 10%);",
         "split-green-bottom":
           "linear-gradient(to bottom, transparent 60%, #A7F3D0 10%);",
+        "split-grey-top":
+          "linear-gradient(to bottom, #F0F0F0 55%, transparent 10%);",
       },
     },
   },
