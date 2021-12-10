@@ -1,17 +1,17 @@
-import Layout from "./screens/Layout";
+import Layout from "./components/Layout";
 import Home from "./screens/Home";
-import About from "./screens/About";
-import Projects from "./screens/Projects";
-import Contact from "./screens/Contact";
+import ProjectDetail from "./screens/ProjectDetail";
+import { Routes, Route } from "react-router-dom";
+// import { projects } from "../services/projects";
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Home />
-        <About />
-        <Projects />
-        <Contact />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/:slug" element={<ProjectDetail />} />
+        </Routes>
       </Layout>
     </div>
   );
