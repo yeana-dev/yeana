@@ -13,7 +13,7 @@ export default function Nav() {
           <div>
             <Link
               to="/"
-              className="flex items-center py-4 px-2 italic text-xl font-semibold"
+              className="flex items-center py-4 px-2 italic text-xl font-semibold tracking-tighter"
             >
               yeana.dev
             </Link>
