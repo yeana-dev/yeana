@@ -43,7 +43,7 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              <button>
+              <button className="text-xs font-semibold">
                 <i className="fas fa-file" /> Resume
               </button>
             </a>
@@ -52,7 +52,7 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              <button>
+              <button className="text-xs font-semibold">
                 <i className="fab fa-github-square" /> Github
               </button>
             </a>
@@ -61,7 +61,7 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              <button>
+              <button className="text-xs font-semibold">
                 <i className="fab fa-linkedin" /> LinkedIn
               </button>
             </a>
@@ -79,7 +79,7 @@ export default function Contact() {
           <input
             type="submit"
             value={sent ? "Sent! Talk to you soon 😊" : "Submit"}
-            className="contact-form-submit"
+            className="contact-form-submit cursor-pointer font-semibold font-sans uppercase"
             id={sent ? "sent" : "not-sent"}
           />
         </form>
