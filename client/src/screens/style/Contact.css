@@ -29,7 +29,7 @@
 
 #contact-left p {
   font-family: "Noto Serif", serif;
-  font-size: 20px;
+  /* font-size: 20px; */
   margin: 3rem 0;
 }
 
@@ -43,21 +43,21 @@
   border: none;
   padding: 1em;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 12px;
   resize: none;
 }
 
 #about-links button {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 #about-links button,
 .contact-form-submit {
   color: white;
-  font-family: "Noto Sans Mono", monospace;
+  /* font-family: "Noto Sans Mono", monospace; */
   transition: all 200ms ease;
   background-color: black;
-  font-size: 12px;
+  /* font-size: 12px; */
   padding: 5px 15px;
   border: none;
   border-radius: 10px;
