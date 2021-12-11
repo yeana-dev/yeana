@@ -16,7 +16,7 @@ export default function Home() {
             Hi 👋&nbsp;&nbsp;My name is{" "}
             <span className="text-purple-400">Yeana</span>,
           </h1>
-          <div className="font-semibold text-xl md:text-3xl py-3">
+          <div className="font-semibold text-xl md:text-3xl py-3 h-10 md:h-full">
             and I am a software engineer who strives to <br />
             build{" "}
             <Typewriter
