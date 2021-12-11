@@ -41,8 +41,8 @@ export const projects = [
     mainPreview: WitmePreview,
     browser: WitmeBrowser,
     sub_header: "A collaborative platform for devs and designers",
-    description: "A Full-stack application using PostgreSQL and Ruby on Rails.",
-    features: `Features: WYSIWYG text editor <a href="https://ui.toast.com/tui-editor" target="_blank" rel="noreferrer">Toast UI Editor</a>, comments, login/signup using JWT and Bcrypt`,
+    description:
+      "Witme is a platform for developers and designers to create a team for their side-project or study group. Users can create a post describing their current team and project (if they already have one) or create a study group. In addition, the list can be categorized by role(Front-end, Back-end, Designer) they are recruiting.",
     used_stacks: [
       "HTML",
       "CSS",
@@ -64,8 +64,7 @@ export const projects = [
     browser: YsfjBrowser,
     sub_header: "E-commerce for a virtual eyewear boutique",
     description:
-      "A full-stack MERN application built with three other developers using MongoDB and Express.js. Used JWT and bcrypt for user authentication and authorization.",
-    features: `Glasses' image datas are from <a href="https://www.warbyparker.com/" target="_blank" rel="noreferrer">Warby Parker</a>`,
+      "MERN full-stack application built as a group of four developers. We implemented User authentication/authorization using JWT, and users have their indivisual carts where they can add and remove.",
     used_stacks: [
       "HTML",
       "CSS",
@@ -85,10 +84,9 @@ export const projects = [
     slug: "devlog",
     mainPreview: DevlogPreview,
     browser: DevlogBrowser,
-    sub_header: "Developer’s Log",
+    sub_header: "Blog for developers",
     description:
-      "Single-page application for developers to log their learning progress and post their projects. Posts are categorized by languages and framework.",
-    features: `Used <a href="https://www.airtable.com/" target="_blank" rel="noreferrer">Airtable RESTful API</a>`,
+      "Single-page application for developers to log their learning progress and post their projects. Posts are categorized by languages and framework, and they are added automatically whenever user creates a post with new language/framework.",
     used_stacks: [
       "HTML",
       "CSS",
@@ -106,9 +104,7 @@ export const projects = [
     mainPreview: CritterdexPreview,
     browser: CritterdexBrowser,
     sub_header: "Nintendo Switch game 'Animal Crossing' critter encyclopedia",
-    description:
-      "Pure JavaScript application for users to search critters by many search methods. User can insert time slot to see which critters are available, or simply search by their name.",
-    features: `Used <a href="http://acnhapi.com/" target="_blank" rel="noreferrer">ACNH RESTful API</a>`,
+    description: `Nintendo switch game 'Animal Crossing' critter encyclopedia. Basic application for users to search critters from Animal Crossing by many search methods.`,
     used_stacks: ["HTML", "CSS", "JavaScript"],
     siteURL: "https://critterdex.netlify.app",
     githubURL: "https://github.com/yeana-dev/Critterdex-for-animal-crossing",
@@ -118,11 +114,11 @@ export const projects = [
     slug: "weather_app",
     mainPreview: WeatherappPreview,
     browser: WeatherBrowser,
-    seb_header: "test",
-    description: "test",
-    features: `test`,
-    used_stacks: ["HTML"],
-    siteURL: "https://advancing-justice.netlify.app",
-    githubURL: "https://github.com",
+    sub_header: "Simple themed weather application built with React",
+    description:
+      "This is my first ever made React application! User can search by any city in the world or simply search weather for current location, and it's also designed with two responsive screen sizes.",
+    used_stacks: ["HTML", "CSS", "JavaScript", "React", "Bootstrap"],
+    siteURL: "https://yeana-react-weather.page/",
+    githubURL: "https://github.com/yeana-dev/Weather-App-React",
   },
 ];
