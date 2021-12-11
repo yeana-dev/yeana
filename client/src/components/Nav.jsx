@@ -8,7 +8,7 @@ export default function Nav() {
   const hide = () => menu.classList.toggle("hidden");
   return (
     <nav className="fixed w-full bg-white z-50" id="top">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto px-6">
         <div className="flex space-x-7 justify-between">
           <div>
             <Link

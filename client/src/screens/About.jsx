@@ -23,7 +23,7 @@ export default function About() {
                 😉 Hi! Thank you for checking in!
               </h1>
               {/* Paragraph container */}
-              <div className="flex flex-col gap-10 px-4 lg:px-0 text-center lg:text-left">
+              <div className="flex flex-col gap-10 px-6 lg:px-0 text-center lg:text-left">
                 <p>
                   I am a{" "}
                   <span className="bg-yellow-100">software engineer</span>{" "}
