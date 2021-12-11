@@ -4,7 +4,7 @@ export default function Stack(props) {
   return (
     <li className="project-tools">
       {props.stack.svg}
-      {props.stack.name}
+      <span className="font-sans text-xs">{props.stack.name}</span>
     </li>
   );
 }
