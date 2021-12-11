@@ -12,11 +12,11 @@ export default function Home() {
         className="max-w-6xl h-screen mx-auto flex flex-col justify-end tracking-tighter px-7"
       >
         <header>
-          <h1 className="font-bold text-4xl lg:text-6xl">
+          <h1 className="font-bold text-4xl md:text-6xl">
             Hi 👋&nbsp;&nbsp;My name is{" "}
             <span className="text-purple-400">Yeana</span>,
           </h1>
-          <div className="font-semibold text-xl lg:text-3xl py-3">
+          <div className="font-semibold text-xl md:text-3xl py-3">
             and I am a software engineer who strives to <br />
             build{" "}
             <Typewriter
