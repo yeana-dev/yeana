@@ -79,9 +79,7 @@ export default function Nav() {
 
       {/* Mobile screen navbar */}
       <section
-        className={`${
-          !toggle && "hidden"
-        } mobile-menu md:hidden px-3 border-t-8 border-aajc-orange`}
+        className={`${!toggle && "hidden"} mobile-menu md:hidden`}
         id="menu"
         onClick={() => hide()}
       >
@@ -89,9 +87,33 @@ export default function Nav() {
           <li>
             <a
               href="/"
-              className="block text-sm px-2 py-3 text-black hover:bg-black hover:text-white transition duration-300"
+              className="block text-sm px-2 py-3 text-black bg-purple-200 hover:bg-purple-300 hover:text-white uppercase transition duration-300"
             >
               Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/#about"
+              className="block text-sm px-2 py-3 text-black bg-purple-200 hover:bg-purple-300 hover:text-white uppercase transition duration-300"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="/#projects"
+              className="block text-sm px-2 py-3 text-black bg-purple-200 hover:bg-purple-300 hover:text-white uppercase transition duration-300"
+            >
+              Projects
+            </a>
+          </li>
+          <li>
+            <a
+              href="/#contact"
+              className="block text-sm px-2 py-3 text-black bg-purple-200 hover:bg-purple-300 hover:text-white uppercase transition duration-300"
+            >
+              Contact
             </a>
           </li>
         </ul>
