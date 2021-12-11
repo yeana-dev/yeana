@@ -22,7 +22,7 @@ export default function ProjectDetail() {
 
   return (
     <div className="py-16">
-      <header className="bg-split-grey-top py-10 px-14 md:px-0">
+      <header className="bg-split-grey-top py-10 px-14 md:px-7">
         <div className="max-w-6xl mx-auto flex md:justify-between flex-col md:flex-row">
           <img
             src={project.browser}
