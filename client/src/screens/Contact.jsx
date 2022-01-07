@@ -40,7 +40,7 @@ export default function Contact() {
           </p>
           <div className="flex gap-3">
             <a
-              href="https://drive.google.com/file/d/1f-v5MgcNb6cZegXW-SYpRv36UIILGKZH/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yss-n4eSFigthzA85hqUylU2sfaxfGvZ/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
