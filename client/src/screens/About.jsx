@@ -84,7 +84,7 @@ export default function About() {
             👩🏻‍💻 My current stacks
           </h1>
           <ul className="flex flex-wrap justify-center gap-5">
-            {stacks.slice(0, 10).map((stack) => (
+            {stacks.slice(0, 13).map((stack) => (
               <Stack stack={stack} />
             ))}
           </ul>
